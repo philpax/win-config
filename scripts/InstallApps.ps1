@@ -30,12 +30,11 @@ $applicationList = @(
     "7zip.7zip"
     "LIGHTNINGUK.ImgBurn"
     "WinDirStat.WinDirStat"
-    "AdoptOpenJDK.OpenJDK.8"
-    "AdoptOpenJDK.OpenJDK.11"
-    "AdoptOpenJDK.OpenJDK.17"
+    "EclipseAdoptium.Temurin.8.JRE"
+    "EclipseAdoptium.Temurin.11.JRE"
+    "EclipseAdoptium.Temurin.17.JRE"
+    "EclipseAdoptium.Temurin.21.JRE"
 );
-
-# winget install -e --id BlenderFoundation.Blender -v 3.4.0
 
 foreach ($app in $applicationList) {
     installApp $app
