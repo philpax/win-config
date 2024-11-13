@@ -7,10 +7,6 @@ function installApp {
 }
 
 $applicationList = @(
-    "Microsoft.VisualStudioCode"
-    "Git.Git"
-    "Python.Python.3.11"
-    "Volta.Volta"
     "Obsidian.Obsidian"
     "Google.Chrome"
     "Mozilla.Firefox"
@@ -24,12 +20,9 @@ $applicationList = @(
     "WinSCP.WinSCP"
     "VideoLAN.VLC"
     "Audacity.Audacity"
-    "CodecGuide.K-LiteCodecPack.Full"
     "Spotify.Spotify"
     "HandBrake.HandBrake"
-    "7zip.7zip"
     "LIGHTNINGUK.ImgBurn"
-    "WinDirStat.WinDirStat"
     "EclipseAdoptium.Temurin.8.JRE"
     "EclipseAdoptium.Temurin.11.JRE"
     "EclipseAdoptium.Temurin.17.JRE"
