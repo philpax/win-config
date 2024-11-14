@@ -21,8 +21,6 @@ Remove-Item C:\temp\ghidra\$($asset.name)
 Copy-Item -Path "C:\temp\ghidra\*" -Destination "C:\Dev\Ghidra" -Force -Recurse
 Remove-Item C:\temp\ghidra -Recurse -Force
 
-$ghidraFolder = (Get-ChildItem C:\Dev\Ghidra).Name
-
 $shell = New-Object -comObject WScript.Shell
 $shortcut = $shell.CreateShortcut("$env:APPDATA\Microsoft\Windows\Start Menu\Programs\Ghidra.lnk")
 $shortcut.TargetPath = "C:\Dev\Ghidra\$((Get-ChildItem C:\Dev\Ghidra).Name)\ghidraRun.bat"
