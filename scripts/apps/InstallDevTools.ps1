@@ -13,6 +13,7 @@ $applicationList = @(
     "Python.Python.3.11"
     "Volta.Volta"
     "Rustlang.Rustup"
+    "aria2.aria2"
 );
 
 foreach ($app in $applicationList) {
