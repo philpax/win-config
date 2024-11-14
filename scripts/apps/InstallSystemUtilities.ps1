@@ -14,6 +14,8 @@ $applicationList = @(
     "WinDirStat.WinDirStat"
     "7zip.7zip"
     "CodecGuide.K-LiteCodecPack.Full"
+    "aria2.aria2"
+    "schollz.croc"
 );
 
 foreach ($app in $applicationList) {
