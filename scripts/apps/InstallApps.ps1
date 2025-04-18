@@ -8,7 +8,7 @@ function installApp {
 
 $applicationList = @(
     "Obsidian.Obsidian"
-    "Google.Chrome"
+#    "Google.Chrome"
     "Mozilla.Firefox"
     "BlenderFoundation.Blender"
     "GIMP.GIMP"
@@ -21,12 +21,12 @@ $applicationList = @(
     "VideoLAN.VLC"
     "Audacity.Audacity"
     "Spotify.Spotify"
-    "HandBrake.HandBrake"
-    "LIGHTNINGUK.ImgBurn"
-    "EclipseAdoptium.Temurin.8.JRE"
-    "EclipseAdoptium.Temurin.11.JRE"
-    "EclipseAdoptium.Temurin.17.JRE"
-    "EclipseAdoptium.Temurin.21.JRE"
+#    "HandBrake.HandBrake"
+#    "LIGHTNINGUK.ImgBurn"
+#    "EclipseAdoptium.Temurin.8.JRE"
+#    "EclipseAdoptium.Temurin.11.JRE"
+#    "EclipseAdoptium.Temurin.17.JRE"
+#    "EclipseAdoptium.Temurin.21.JRE"
 );
 
 foreach ($app in $applicationList) {

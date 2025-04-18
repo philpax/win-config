@@ -7,12 +7,13 @@ function installApp {
 }
 
 $applicationList = @(
-    "Microsoft.VisualStudio.2022.Community"
-    "Microsoft.VisualStudioCode"
-    "JetBrains.Rider"
+#    "Microsoft.VisualStudio.2022.Community"
+#    "Microsoft.VisualStudioCode"
+#    "JetBrains.Rider"
+    "Anysphere.Cursor"
     "Git.Git"
-    "Python.Python.3.11"
-    "Volta.Volta"
+#    "Python.Python.3.11"
+#    "Volta.Volta"
     "Rustlang.Rustup"
 );
 

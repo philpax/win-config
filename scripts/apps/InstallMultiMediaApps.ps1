@@ -7,17 +7,17 @@ function installApp {
 }
 
 $applicationList = @(
-    "GIMP.GIMP"
+#    "GIMP.GIMP"
     "Gyan.FFmpeg"
-    "FlorianHeidenreich.Mp3tag"
-    "Unity.UnityHub"
+#    "FlorianHeidenreich.Mp3tag"
+#    "Unity.UnityHub"
     "VideoLAN.VLC"
     "Inkscape.Inkscape"
-    "dotPDN.PaintDotNet"
-    "HandBrake.HandBrake"
-    "LIGHTNINGUK.ImgBurn"
-    "GuinpinSoft.MakeMKV"
-    "OBSProject.OBSStudio"
+#    "dotPDN.PaintDotNet"
+#    "HandBrake.HandBrake"
+#    "LIGHTNINGUK.ImgBurn"
+#    "GuinpinSoft.MakeMKV"
+#    "OBSProject.OBSStudio"
     "yt-dlp.yt-dlp"
 );
 
