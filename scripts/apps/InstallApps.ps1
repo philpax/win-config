@@ -27,6 +27,7 @@ $applicationList = @(
 #    "EclipseAdoptium.Temurin.11.JRE"
 #    "EclipseAdoptium.Temurin.17.JRE"
 #    "EclipseAdoptium.Temurin.21.JRE"
+     CPUID.CPU-Z
 );
 
 foreach ($app in $applicationList) {
