@@ -12,4 +12,6 @@ installApps @(
     "CodecGuide.K-LiteCodecPack.Full"
     "aria2.aria2"
     "schollz.croc"
+    "RamenSoftware.Windhawk"
+    "Syncthing.Syncthing"
 )
