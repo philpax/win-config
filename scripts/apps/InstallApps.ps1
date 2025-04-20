@@ -1,14 +1,9 @@
 Write-Host "Installing your apps..." -ForegroundColor "Yellow"
 
-function installApp {
-    Param ([string]$appName)
-    Write-Output "Installing $appName"
-    winget install -e --id $appName
-}
+Import-Module "$PSScriptRoot/../modules/AppInstaller.psm1"
 
 $applicationList = @(
     "Obsidian.Obsidian"
-#    "Google.Chrome"
     "Mozilla.Firefox"
     "BlenderFoundation.Blender"
     "GIMP.GIMP"
@@ -21,12 +16,6 @@ $applicationList = @(
     "VideoLAN.VLC"
     "Audacity.Audacity"
     "Spotify.Spotify"
-#    "HandBrake.HandBrake"
-#    "LIGHTNINGUK.ImgBurn"
-#    "EclipseAdoptium.Temurin.8.JRE"
-#    "EclipseAdoptium.Temurin.11.JRE"
-#    "EclipseAdoptium.Temurin.17.JRE"
-#    "EclipseAdoptium.Temurin.21.JRE"
 );
 
 foreach ($app in $applicationList) {

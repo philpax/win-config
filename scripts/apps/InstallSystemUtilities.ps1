@@ -1,10 +1,6 @@
-Write-Host "Installing system management tools..." -ForegroundColor "Yellow"
+Write-Host "Installing system utilities..." -ForegroundColor "Yellow"
 
-function installApp {
-    Param ([string]$appName)
-    Write-Output "Installing $appName"
-    winget install -e --id $appName
-}
+Import-Module "$PSScriptRoot/../modules/AppInstaller.psm1"
 
 $applicationList = @(
     "Microsoft.Sysinternals.Autoruns"

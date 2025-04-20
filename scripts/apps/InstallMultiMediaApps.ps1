@@ -1,23 +1,11 @@
-Write-Host "Installing your multimedia apps..." -ForegroundColor "Yellow"
+Write-Host "Installing multimedia apps..." -ForegroundColor "Yellow"
 
-function installApp {
-    Param ([string]$appName)
-    Write-Output "Installing $appName"
-    winget install -e --id $appName
-}
+Import-Module "$PSScriptRoot/../modules/AppInstaller.psm1"
 
 $applicationList = @(
-#    "GIMP.GIMP"
     "Gyan.FFmpeg"
-#    "FlorianHeidenreich.Mp3tag"
-#    "Unity.UnityHub"
     "VideoLAN.VLC"
     "Inkscape.Inkscape"
-#    "dotPDN.PaintDotNet"
-#    "HandBrake.HandBrake"
-#    "LIGHTNINGUK.ImgBurn"
-#    "GuinpinSoft.MakeMKV"
-#    "OBSProject.OBSStudio"
     "yt-dlp.yt-dlp"
 );
 

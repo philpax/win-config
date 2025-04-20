@@ -1,19 +1,10 @@
 Write-Host "Installing dev tools..." -ForegroundColor "Yellow"
 
-function installApp {
-    Param ([string]$appName)
-    Write-Output "Installing $appName"
-    winget install -e --id $appName
-}
+Import-Module "$PSScriptRoot/../modules/AppInstaller.psm1"
 
 $applicationList = @(
-#    "Microsoft.VisualStudio.2022.Community"
-#    "Microsoft.VisualStudioCode"
-#    "JetBrains.Rider"
     "Anysphere.Cursor"
     "Git.Git"
-#    "Python.Python.3.11"
-#    "Volta.Volta"
     "Rustlang.Rustup"
 );
 
