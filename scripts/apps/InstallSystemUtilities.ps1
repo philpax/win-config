@@ -14,4 +14,5 @@ installApps @(
     "schollz.croc"
     "RamenSoftware.Windhawk"
     "Syncthing.Syncthing"
+    "Martchus.syncthingtray"
 )
