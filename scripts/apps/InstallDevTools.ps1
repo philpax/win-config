@@ -8,4 +8,5 @@ installApps @(
     "Anysphere.Cursor"
     "Git.Git"
     "Rustlang.Rustup"
+    "OpenJS.NodeJS"
 )
