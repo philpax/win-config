@@ -7,6 +7,7 @@ installApps @(
     "Microsoft.Sysinternals.ProcessExplorer"
     "Microsoft.Sysinternals.Strings"
     "Microsoft.PowerToys"
+    "Microsoft.PowerShell"
     "WinDirStat.WinDirStat"
     "7zip.7zip"
     "CodecGuide.K-LiteCodecPack.Full"
