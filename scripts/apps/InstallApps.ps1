@@ -1,8 +1,8 @@
 Write-Host "Installing your apps..." -ForegroundColor "Yellow"
 
-Import-Module "$PSScriptRoot/../modules/AppInstaller.psm1"
+Import-Module (Join-Path $PSScriptRoot "..\modules\AppInstaller.psm1") -Force
 
-$applicationList = @(
+installApps @(
     "Obsidian.Obsidian"
     "Mozilla.Firefox"
     "BlenderFoundation.Blender"
@@ -16,8 +16,4 @@ $applicationList = @(
     "VideoLAN.VLC"
     "Audacity.Audacity"
     "Spotify.Spotify"
-);
-
-foreach ($app in $applicationList) {
-    installApp $app
-}
+)

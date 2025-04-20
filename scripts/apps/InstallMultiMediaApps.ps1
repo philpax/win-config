@@ -1,14 +1,10 @@
 Write-Host "Installing multimedia apps..." -ForegroundColor "Yellow"
 
-Import-Module "$PSScriptRoot/../modules/AppInstaller.psm1"
+Import-Module (Join-Path $PSScriptRoot "..\modules\AppInstaller.psm1") -Force
 
-$applicationList = @(
+installApps @(
     "Gyan.FFmpeg"
     "VideoLAN.VLC"
     "Inkscape.Inkscape"
     "yt-dlp.yt-dlp"
-);
-
-foreach ($app in $applicationList) {
-    installApp $app
-}
+)

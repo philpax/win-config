@@ -1,13 +1,9 @@
 Write-Host "Installing dev tools..." -ForegroundColor "Yellow"
 
-Import-Module "$PSScriptRoot/../modules/AppInstaller.psm1"
+Import-Module (Join-Path $PSScriptRoot "..\modules\AppInstaller.psm1") -Force
 
-$applicationList = @(
+installApps @(
     "Anysphere.Cursor"
     "Git.Git"
     "Rustlang.Rustup"
-);
-
-foreach ($app in $applicationList) {
-    installApp $app
-}
+)

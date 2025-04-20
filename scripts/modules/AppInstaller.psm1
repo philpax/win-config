@@ -4,4 +4,11 @@ function installApp {
     winget install -e --id $appName
 }
 
-Export-ModuleMember -Function installApp
+function installApps {
+    Param ([string[]]$appNames)
+    foreach ($app in $appNames) {
+        installApp $app
+    }
+}
+
+Export-ModuleMember -Function installApp, installApps

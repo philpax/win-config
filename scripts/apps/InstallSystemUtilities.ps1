@@ -1,8 +1,8 @@
 Write-Host "Installing system utilities..." -ForegroundColor "Yellow"
 
-Import-Module "$PSScriptRoot/../modules/AppInstaller.psm1"
+Import-Module (Join-Path $PSScriptRoot "..\modules\AppInstaller.psm1") -Force
 
-$applicationList = @(
+installApps @(
     "Microsoft.Sysinternals.Autoruns"
     "Microsoft.Sysinternals.ProcessExplorer"
     "Microsoft.Sysinternals.Strings"
@@ -12,8 +12,4 @@ $applicationList = @(
     "CodecGuide.K-LiteCodecPack.Full"
     "aria2.aria2"
     "schollz.croc"
-);
-
-foreach ($app in $applicationList) {
-    installApp $app
-}
+)
