@@ -14,7 +14,6 @@ $fontPackages = @(
     # }
 )
 
-$fontsFolder = "$env:WINDIR\Fonts"
 $tempFolder = "$env:TEMP\FontInstaller"
 
 # Check for administrator privileges
