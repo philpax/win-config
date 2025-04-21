@@ -9,4 +9,5 @@ installApps @(
     "Git.Git"
     "Rustlang.Rustup"
     "OpenJS.NodeJS"
+    "Python.Python.3.12"
 )
