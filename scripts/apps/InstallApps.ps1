@@ -13,7 +13,6 @@ installApps @(
     "Discord.Discord"
     "qBittorrent.qBittorrent"
     "WinSCP.WinSCP"
-    "VideoLAN.VLC"
     "Audacity.Audacity"
     "Spotify.Spotify"
 )

@@ -16,4 +16,5 @@ installApps @(
     "RamenSoftware.Windhawk"
     "Syncthing.Syncthing"
     "Martchus.syncthingtray"
+    "REALiX.HWiNFO"
 )

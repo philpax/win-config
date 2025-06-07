@@ -10,4 +10,5 @@ installApps @(
     "Rustlang.Rustup"
     "OpenJS.NodeJS"
     "Python.Python.3.12"
+    "Amazon.AWSCLI"
 )
