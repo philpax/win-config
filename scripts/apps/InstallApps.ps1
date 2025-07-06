@@ -15,4 +15,5 @@ installApps @(
     "WinSCP.WinSCP"
     "Audacity.Audacity"
     "Spotify.Spotify"
+    "Anki.Anki"
 )
